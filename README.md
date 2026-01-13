@@ -1,10 +1,8 @@
 # Internship - Flutter Apps Collection
 
-Коллекция мобильных приложений на Flutter, разработанных в рамках стажировки.
-
 ## Структура проекта
 
-Проект содержит 6 независимых Flutter-приложений в директории `apps/`:
+Проект содержит 6 Flutter-приложений в директории `apps/`:
 
 ### 1. SmartCalc
 **Путь:** `apps/smart_calc/`
@@ -171,16 +169,3 @@ app_name/
 └── pubspec.yaml            # Зависимости и метаданные
 ```
 
-## Git
-
-- **Основная ветка:** `dev`
-- **Последние коммиты:**
-  - `866d9d0` - Удалена поддержка Flutter Linux desktop
-  - `6c33c50` - Инициализация dev ветки
-  - `e9f05b7` - Первый коммит
-
-## Документация Flutter
-
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
-- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
