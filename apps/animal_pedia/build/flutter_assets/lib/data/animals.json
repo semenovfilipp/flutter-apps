@@ -1,0 +1,502 @@
+[
+  {
+    "id": "1",
+    "name": "African Lion",
+    "scientificName": "Panthera leo",
+    "category": "Mammals",
+    "habitat": "Grasslands and savannas",
+    "diet": "Carnivore",
+    "description": "The African lion is a large carnivorous feline that lives in prides. Known as the 'King of the Jungle', lions are apex predators with distinctive manes in males.",
+    "facts": [
+      "A lion's roar can be heard from 5 miles away",
+      "Female lions do most of the hunting",
+      "Lions sleep up to 20 hours a day",
+      "A pride can have up to 30 lions"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "10-14 years in wild",
+    "weight": "120-250 kg",
+    "length": "1.7-2.5 meters"
+  },
+  {
+    "id": "2",
+    "name": "Bengal Tiger",
+    "scientificName": "Panthera tigris tigris",
+    "category": "Mammals",
+    "habitat": "Tropical forests and grasslands",
+    "diet": "Carnivore",
+    "description": "The Bengal tiger is the most numerous tiger subspecies. They are solitary hunters with distinctive orange coats and black stripes.",
+    "facts": [
+      "Each tiger has a unique stripe pattern",
+      "Tigers are excellent swimmers",
+      "Can leap up to 10 meters horizontally",
+      "Have night vision 6 times better than humans"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1615824554135-7be310b3bac6?w=800",
+    "conservationStatus": "Endangered",
+    "lifespan": "8-10 years in wild",
+    "weight": "180-260 kg",
+    "length": "2.7-3.1 meters"
+  },
+  {
+    "id": "3",
+    "name": "African Elephant",
+    "scientificName": "Loxodonta africana",
+    "category": "Mammals",
+    "habitat": "Savannas and forests",
+    "diet": "Herbivore",
+    "description": "The African elephant is the largest land animal. They are highly intelligent with complex social structures and use their trunks for various tasks.",
+    "facts": [
+      "Elephants have excellent memory",
+      "Can consume up to 150 kg of food daily",
+      "Communicate using infrasound",
+      "Live in matriarchal societies"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "60-70 years",
+    "weight": "4000-7000 kg",
+    "length": "6-7 meters"
+  },
+  {
+    "id": "4",
+    "name": "Giant Panda",
+    "scientificName": "Ailuropoda melanoleuca",
+    "category": "Mammals",
+    "habitat": "Mountain forests in China",
+    "diet": "Herbivore (Bamboo)",
+    "description": "Giant pandas are black and white bears known for their love of bamboo. They spend most of their day eating and are symbols of conservation.",
+    "facts": [
+      "Eat up to 38 kg of bamboo daily",
+      "Have an extra 'thumb' for gripping bamboo",
+      "Only 1,864 left in the wild",
+      "Cubs are born pink and helpless"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "20 years in wild",
+    "weight": "70-120 kg",
+    "length": "1.2-1.9 meters"
+  },
+  {
+    "id": "5",
+    "name": "Blue Whale",
+    "scientificName": "Balaenoptera musculus",
+    "category": "Mammals",
+    "habitat": "All major oceans",
+    "diet": "Carnivore (Krill)",
+    "description": "The blue whale is the largest animal ever known to have lived on Earth. These marine mammals can weigh as much as 24 elephants.",
+    "facts": [
+      "Heart weighs about 400 pounds",
+      "Tongue can weigh as much as an elephant",
+      "Can consume 4 tons of krill per day",
+      "Their calls can reach 188 decibels"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+    "conservationStatus": "Endangered",
+    "lifespan": "80-90 years",
+    "weight": "100,000-200,000 kg",
+    "length": "24-30 meters"
+  },
+  {
+    "id": "6",
+    "name": "Red Fox",
+    "scientificName": "Vulpes vulpes",
+    "category": "Mammals",
+    "habitat": "Forests, grasslands, mountains",
+    "diet": "Omnivore",
+    "description": "The red fox is the largest true fox species. They are highly adaptable and can be found across the entire Northern Hemisphere.",
+    "facts": [
+      "Can hear a mouse squeaking 100 feet away",
+      "Use Earth's magnetic field to hunt",
+      "Have 28 different vocalizations",
+      "Can run up to 48 km/h"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "2-5 years in wild",
+    "weight": "5-10 kg",
+    "length": "45-90 cm"
+  },
+  {
+    "id": "7",
+    "name": "Bald Eagle",
+    "scientificName": "Haliaeetus leucocephalus",
+    "category": "Birds",
+    "habitat": "Near large bodies of water",
+    "diet": "Carnivore (Fish)",
+    "description": "The bald eagle is a bird of prey found in North America and the national bird of the United States. They are known for their distinctive white head.",
+    "facts": [
+      "Can see fish from 2 miles away",
+      "Dive at speeds up to 160 km/h",
+      "Mate for life",
+      "Build the largest tree nests of any animal"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1562292872-c99a6c2f2e33?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "20 years in wild",
+    "weight": "3-6.3 kg",
+    "length": "70-102 cm wingspan"
+  },
+  {
+    "id": "8",
+    "name": "Emperor Penguin",
+    "scientificName": "Aptenodytes forsteri",
+    "category": "Birds",
+    "habitat": "Antarctica",
+    "diet": "Carnivore (Fish, squid)",
+    "description": "Emperor penguins are the tallest and heaviest of all penguin species. They endure the Antarctic winter to breed.",
+    "facts": [
+      "Can dive up to 550 meters deep",
+      "Males incubate eggs for 64 days without eating",
+      "Huddle together to survive -40°C temperatures",
+      "Can hold breath for over 20 minutes"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1551986782-d0169b3f8fa7?w=800",
+    "conservationStatus": "Near Threatened",
+    "lifespan": "15-20 years",
+    "weight": "22-45 kg",
+    "length": "100-130 cm"
+  },
+  {
+    "id": "9",
+    "name": "Great White Shark",
+    "scientificName": "Carcharodon carcharias",
+    "category": "Fish",
+    "habitat": "Coastal surface waters",
+    "diet": "Carnivore",
+    "description": "The great white shark is the largest predatory fish. These apex predators can detect a single drop of blood in 100 liters of water.",
+    "facts": [
+      "Have 300 serrated teeth in rows",
+      "Can swim at speeds of 56 km/h",
+      "Can detect electrical fields",
+      "Have been around for 400 million years"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "70 years",
+    "weight": "680-1,100 kg",
+    "length": "4.5-6.4 meters"
+  },
+  {
+    "id": "10",
+    "name": "Green Sea Turtle",
+    "scientificName": "Chelonia mydas",
+    "category": "Reptiles",
+    "habitat": "Tropical and subtropical seas",
+    "diet": "Herbivore (Seagrass, algae)",
+    "description": "Green sea turtles are large marine reptiles named for the green color of their fat. They migrate long distances between feeding grounds and nesting beaches.",
+    "facts": [
+      "Can hold breath for 4-7 hours while resting",
+      "Navigate using Earth's magnetic field",
+      "Return to the same beach where they hatched",
+      "Can live over 80 years"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=800",
+    "conservationStatus": "Endangered",
+    "lifespan": "80+ years",
+    "weight": "65-130 kg",
+    "length": "1-1.2 meters"
+  },
+  {
+    "id": "11",
+    "name": "Komodo Dragon",
+    "scientificName": "Varanus komodoensis",
+    "category": "Reptiles",
+    "habitat": "Indonesian islands",
+    "diet": "Carnivore",
+    "description": "The Komodo dragon is the largest living lizard. They have venomous bites and can take down prey much larger than themselves.",
+    "facts": [
+      "Can eat up to 80% of their body weight",
+      "Have venomous saliva",
+      "Can run up to 20 km/h in short bursts",
+      "Excellent swimmers"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1607696213252-b5f1f47f0770?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "30 years",
+    "weight": "70-90 kg",
+    "length": "2-3 meters"
+  },
+  {
+    "id": "12",
+    "name": "Arctic Wolf",
+    "scientificName": "Canis lupus arctos",
+    "category": "Mammals",
+    "habitat": "Arctic regions",
+    "diet": "Carnivore",
+    "description": "Arctic wolves are a subspecies of grey wolf adapted to survive in extreme cold. They have thick white coats and live in packs.",
+    "facts": [
+      "Can withstand temperatures below -70°C",
+      "Travel up to 18 km per day hunting",
+      "Packs have strict hierarchies",
+      "Can go weeks without food"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1550191026-2d7c3f6f6f05?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "7-10 years",
+    "weight": "45-70 kg",
+    "length": "90-150 cm"
+  },
+  {
+    "id": "13",
+    "name": "Cheetah",
+    "scientificName": "Acinonyx jubatus",
+    "category": "Mammals",
+    "habitat": "African savannas",
+    "diet": "Carnivore",
+    "description": "The cheetah is the fastest land animal, capable of running at speeds up to 120 km/h. They have distinctive black tear marks.",
+    "facts": [
+      "Can accelerate from 0 to 96 km/h in 3 seconds",
+      "Non-retractable claws provide traction",
+      "Purr like domestic cats",
+      "Hunt during the day unlike most big cats"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "8-12 years",
+    "weight": "35-65 kg",
+    "length": "1.1-1.4 meters"
+  },
+  {
+    "id": "14",
+    "name": "Gorilla",
+    "scientificName": "Gorilla gorilla",
+    "category": "Mammals",
+    "habitat": "Central African forests",
+    "diet": "Herbivore",
+    "description": "Gorillas are the largest living primates. They are highly intelligent and share 98% of their DNA with humans.",
+    "facts": [
+      "Can learn sign language",
+      "Silverbacks lead family groups",
+      "Share 98.3% DNA with humans",
+      "Spend 40% of day eating"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=800",
+    "conservationStatus": "Critically Endangered",
+    "lifespan": "35-40 years",
+    "weight": "135-220 kg",
+    "length": "1.25-1.85 meters"
+  },
+  {
+    "id": "15",
+    "name": "Polar Bear",
+    "scientificName": "Ursus maritimus",
+    "category": "Mammals",
+    "habitat": "Arctic ice",
+    "diet": "Carnivore",
+    "description": "Polar bears are the largest land carnivores. They are adapted to life in the Arctic with thick fur and excellent swimming abilities.",
+    "facts": [
+      "Fur is actually transparent, not white",
+      "Can swim continuously for days",
+      "Primarily hunt seals",
+      "Have black skin under white fur"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "25-30 years",
+    "weight": "350-700 kg",
+    "length": "2-2.5 meters"
+  },
+  {
+    "id": "16",
+    "name": "Giraffe",
+    "scientificName": "Giraffa camelopardalis",
+    "category": "Mammals",
+    "habitat": "African savannas",
+    "diet": "Herbivore",
+    "description": "Giraffes are the tallest mammals on Earth. Their long necks help them reach leaves high in trees that other animals cannot access.",
+    "facts": [
+      "Tongues can be 45 cm long",
+      "Only sleep 30 minutes per day",
+      "Each has unique spot patterns",
+      "Can run up to 55 km/h"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "25 years",
+    "weight": "800-1,200 kg",
+    "length": "4.3-5.7 meters tall"
+  },
+  {
+    "id": "17",
+    "name": "Hippopotamus",
+    "scientificName": "Hippopotamus amphibius",
+    "category": "Mammals",
+    "habitat": "Rivers and lakes in Africa",
+    "diet": "Herbivore",
+    "description": "Hippos are large semi-aquatic mammals. Despite their herbivorous diet, they are considered one of Africa's most dangerous animals.",
+    "facts": [
+      "Can hold breath for 5 minutes",
+      "Skin secretes natural sunscreen",
+      "Teeth can grow up to 50 cm",
+      "Can run up to 30 km/h on land"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1623870302632-19019b7a6762?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "40-50 years",
+    "weight": "1,500-3,200 kg",
+    "length": "3.3-5 meters"
+  },
+  {
+    "id": "18",
+    "name": "Koala",
+    "scientificName": "Phascolarctos cinereus",
+    "category": "Mammals",
+    "habitat": "Eucalyptus forests in Australia",
+    "diet": "Herbivore (Eucalyptus leaves)",
+    "description": "Koalas are arboreal marsupials native to Australia. They sleep up to 22 hours a day and feed exclusively on eucalyptus leaves.",
+    "facts": [
+      "Sleep 18-22 hours daily",
+      "Fingerprints similar to humans",
+      "Can eat toxic eucalyptus leaves",
+      "Carry babies in pouches for 6 months"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "10-12 years",
+    "weight": "4-15 kg",
+    "length": "60-85 cm"
+  },
+  {
+    "id": "19",
+    "name": "Red Kangaroo",
+    "scientificName": "Macropus rufus",
+    "category": "Mammals",
+    "habitat": "Australian deserts and grasslands",
+    "diet": "Herbivore",
+    "description": "The red kangaroo is the largest marsupial. They are famous for their powerful hind legs and ability to hop at high speeds.",
+    "facts": [
+      "Can jump 3 meters high and 12 meters long",
+      "Hop at speeds up to 70 km/h",
+      "Males are called 'boomers'",
+      "Can survive without water for months"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1523567830207-96731740fa71?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "12-18 years",
+    "weight": "55-90 kg",
+    "length": "1.3-1.6 meters"
+  },
+  {
+    "id": "20",
+    "name": "Snow Leopard",
+    "scientificName": "Panthera uncia",
+    "category": "Mammals",
+    "habitat": "Mountain ranges of Central Asia",
+    "diet": "Carnivore",
+    "description": "Snow leopards are elusive big cats that live in harsh mountain environments. Their thick fur and large paws help them survive in snow.",
+    "facts": [
+      "Can leap up to 15 meters",
+      "Tail helps with balance and warmth",
+      "Can't roar like other big cats",
+      "Hunt animals 3 times their weight"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1551316679-9c6ae9dec224?w=800",
+    "conservationStatus": "Vulnerable",
+    "lifespan": "10-12 years",
+    "weight": "22-55 kg",
+    "length": "1-1.3 meters"
+  },
+  {
+    "id": "21",
+    "name": "Bottlenose Dolphin",
+    "scientificName": "Tursiops truncatus",
+    "category": "Mammals",
+    "habitat": "Warm and temperate seas",
+    "diet": "Carnivore (Fish, squid)",
+    "description": "Bottlenose dolphins are highly intelligent marine mammals known for their playful behavior and complex social structures.",
+    "facts": [
+      "Can recognize themselves in mirrors",
+      "Use echolocation to navigate",
+      "Sleep with one brain hemisphere at a time",
+      "Can swim up to 30 km/h"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1570481662006-a3a1374699e8?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "40-50 years",
+    "weight": "150-650 kg",
+    "length": "2-4 meters"
+  },
+  {
+    "id": "22",
+    "name": "Orangutan",
+    "scientificName": "Pongo pygmaeus",
+    "category": "Mammals",
+    "habitat": "Rainforests of Borneo and Sumatra",
+    "diet": "Omnivore (Mainly fruit)",
+    "description": "Orangutans are great apes known for their intelligence and distinctive red fur. They spend most of their time in trees.",
+    "facts": [
+      "Share 97% of DNA with humans",
+      "Can use tools to get food",
+      "Arm span can reach 2 meters",
+      "Highly intelligent problem solvers"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800",
+    "conservationStatus": "Critically Endangered",
+    "lifespan": "30-40 years",
+    "weight": "30-90 kg",
+    "length": "1.25-1.5 meters"
+  },
+  {
+    "id": "23",
+    "name": "Giant Squid",
+    "scientificName": "Architeuthis dux",
+    "category": "Invertebrates",
+    "habitat": "Deep ocean waters",
+    "diet": "Carnivore (Fish, smaller squid)",
+    "description": "Giant squids are elusive deep-sea creatures and the largest invertebrates on Earth. They have the largest eyes in the animal kingdom.",
+    "facts": [
+      "Eyes can be 30 cm in diameter",
+      "Have three hearts",
+      "Can grow up to 13 meters long",
+      "Rarely seen alive by humans"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800",
+    "conservationStatus": "Data Deficient",
+    "lifespan": "5 years",
+    "weight": "275 kg",
+    "length": "10-13 meters"
+  },
+  {
+    "id": "24",
+    "name": "Scarlet Macaw",
+    "scientificName": "Ara macao",
+    "category": "Birds",
+    "habitat": "Rainforests of Central and South America",
+    "diet": "Herbivore (Fruits, nuts, seeds)",
+    "description": "Scarlet macaws are vibrant parrots known for their brilliant red, yellow, and blue plumage. They are highly social and intelligent birds.",
+    "facts": [
+      "Can live up to 50 years in wild",
+      "Mate for life",
+      "Can fly up to 56 km/h",
+      "Use beaks to crack hard nuts"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1544923408-75c5cca46b1a?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "40-50 years",
+    "weight": "0.9-1.5 kg",
+    "length": "81-96 cm"
+  },
+  {
+    "id": "25",
+    "name": "Sloth",
+    "scientificName": "Bradypus variegatus",
+    "category": "Mammals",
+    "habitat": "Rainforests of Central and South America",
+    "diet": "Herbivore (Leaves, shoots, fruits)",
+    "description": "Sloths are slow-moving arboreal mammals known for spending most of their lives hanging upside down in trees.",
+    "facts": [
+      "Move so slowly algae grows on their fur",
+      "Sleep 15-20 hours per day",
+      "Only defecate once a week",
+      "Can rotate head 270 degrees"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1551992332-b4dc83c8c0c3?w=800",
+    "conservationStatus": "Least Concern",
+    "lifespan": "20-30 years",
+    "weight": "3.6-7.7 kg",
+    "length": "50-75 cm"
+  }
+]
