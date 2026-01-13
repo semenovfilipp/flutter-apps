@@ -51,7 +51,8 @@ class _CompletedScreenState extends State<CompletedScreen> {
     }
   }
 
-  Future<void> _toggleTaskCompletion(Task task) async {
+  /// Снимаем отметку о выполнении
+  Future<void> _uncompleteTask(Task task) async {
     final updatedTask = task.copyWith(
       isCompleted: false,
       completedAt: null,
@@ -87,41 +88,41 @@ class _CompletedScreenState extends State<CompletedScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _completedTasks.isEmpty
-              ? Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        Icons.task_alt,
-                        size: 64,
-                        color: Colors.grey[400],
-                      ),
-                      const SizedBox(height: 16),
-                      Text(
-                        'Нет выполненных задач',
-                        style: TextStyle(
-                          fontSize: 16,
-                          color: Colors.grey[600],
-                        ),
-                      ),
-                    ],
-                  ),
-                )
-              : RefreshIndicator(
-                  onRefresh: _loadCompletedTasks,
-                  child: ListView.builder(
-                    itemCount: _completedTasks.length,
-                    itemBuilder: (context, index) {
-                      final task = _completedTasks[index];
-                      return TaskCard(
-                        task: task,
-                        onTap: () => _navigateToEditTask(task),
-                        onCheckChanged: (_) => _toggleTaskCompletion(task),
-                        onDelete: () => _deleteTask(task.id!),
-                      );
-                    },
-                  ),
-                ),
+          ? Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.task_alt,
+              size: 64,
+              color: Colors.grey[400],
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'Нет выполненных задач',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey[600],
+              ),
+            ),
+          ],
+        ),
+      )
+          : RefreshIndicator(
+        onRefresh: _loadCompletedTasks,
+        child: ListView.builder(
+          itemCount: _completedTasks.length,
+          itemBuilder: (context, index) {
+            final task = _completedTasks[index];
+            return TaskCard(
+              task: task,
+              onTap: () => _navigateToEditTask(task),
+              onCheckChanged: (_) => _uncompleteTask(task),
+              onDelete: () => _deleteTask(task.id!),
+            );
+          },
+        ),
+      ),
     );
   }
 }

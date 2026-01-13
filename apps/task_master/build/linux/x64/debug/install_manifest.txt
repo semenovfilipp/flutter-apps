@@ -1,0 +1,14 @@
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/taskmaster
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/lib/libsqlite3.x64.linux.so
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/shaders/stretch_effect.frag
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/f-semenov/IdeaProjects/internship/apps/task_master/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
