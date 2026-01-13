@@ -105,13 +105,6 @@
 - **Язык:** Dart
 - **Поддерживаемые платформы:** Android, iOS, Linux, MacOS
 
-## Требования
-
-- Flutter SDK 3.10.4 или выше
-- Dart SDK ^3.10.4
-- Android Studio / VS Code с Flutter плагином
-- Xcode (для iOS разработки на macOS)
-
 ## Запуск приложений
 
 Каждое приложение запускается независимо:
