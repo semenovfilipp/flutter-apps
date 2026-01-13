@@ -1,1 +1,1 @@
- /home/f-semenov/IdeaProjects/internship/apps/task_master/build/3642809963d136a37025ff6ed9f3e876/dart_build_result.json: 
+ /home/f-semenov/IdeaProjects/internship/apps/task_master/build/3642809963d136a37025ff6ed9f3e876/dart_build_result.json:  /home/f-semenov/IdeaProjects/internship/apps/task_master/.dart_tool/package_config.json /home/f-semenov/IdeaProjects/internship/apps/task_master/pubspec.yaml /home/f-semenov/flutter_linux_3.38.5-stable/flutter/bin/cache/dart-sdk/version

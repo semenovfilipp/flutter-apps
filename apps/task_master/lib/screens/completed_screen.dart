@@ -23,14 +23,32 @@ class _CompletedScreenState extends State<CompletedScreen> {
   }
 
   Future<void> _loadCompletedTasks() async {
+    if (!mounted) return;
+
     setState(() => _isLoading = true);
 
-    final tasks = await _databaseService.readCompletedTasks();
+    try {
+      final tasks = await _databaseService.readCompletedTasks();
 
-    setState(() {
-      _completedTasks = tasks;
-      _isLoading = false;
-    });
+      if (!mounted) return;
+
+      setState(() {
+        _completedTasks = tasks;
+        _isLoading = false;
+      });
+    } catch (e) {
+      if (!mounted) return;
+
+      setState(() {
+        _isLoading = false;
+      });
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Ошибка загрузки: $e')),
+        );
+      }
+    }
   }
 
   Future<void> _toggleTaskCompletion(Task task) async {

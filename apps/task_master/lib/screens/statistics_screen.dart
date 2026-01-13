@@ -26,14 +26,32 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
   }
 
   Future<void> _loadStatistics() async {
+    if (!mounted) return;
+
     setState(() => _isLoading = true);
 
-    final stats = await _databaseService.getStatistics();
+    try {
+      final stats = await _databaseService.getStatistics();
 
-    setState(() {
-      _stats = stats;
-      _isLoading = false;
-    });
+      if (!mounted) return;
+
+      setState(() {
+        _stats = stats;
+        _isLoading = false;
+      });
+    } catch (e) {
+      if (!mounted) return;
+
+      setState(() {
+        _isLoading = false;
+      });
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Ошибка загрузки: $e')),
+        );
+      }
+    }
   }
 
   @override

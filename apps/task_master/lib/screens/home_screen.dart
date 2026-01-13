@@ -26,25 +26,43 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadTasks() async {
+    if (!mounted) return;
+
     setState(() => _isLoading = true);
 
-    List<Task> tasks;
-    switch (_currentFilter) {
-      case TaskFilter.all:
-        tasks = await _databaseService.readAllTasks();
-        break;
-      case TaskFilter.active:
-        tasks = await _databaseService.readActiveTasks();
-        break;
-      case TaskFilter.completed:
-        tasks = await _databaseService.readCompletedTasks();
-        break;
-    }
+    try {
+      List<Task> tasks;
+      switch (_currentFilter) {
+        case TaskFilter.all:
+          tasks = await _databaseService.readAllTasks();
+          break;
+        case TaskFilter.active:
+          tasks = await _databaseService.readActiveTasks();
+          break;
+        case TaskFilter.completed:
+          tasks = await _databaseService.readCompletedTasks();
+          break;
+      }
 
-    setState(() {
-      _tasks = tasks;
-      _isLoading = false;
-    });
+      if (!mounted) return;
+
+      setState(() {
+        _tasks = tasks;
+        _isLoading = false;
+      });
+    } catch (e) {
+      if (!mounted) return;
+
+      setState(() {
+        _isLoading = false;
+      });
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Ошибка загрузки: $e')),
+        );
+      }
+    }
   }
 
   Future<void> _toggleTaskCompletion(Task task) async {
