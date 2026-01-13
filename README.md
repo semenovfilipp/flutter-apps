@@ -1,17 +1,186 @@
-# internship
+# Internship - Flutter Apps Collection
 
-A new Flutter project.
+Коллекция мобильных приложений на Flutter, разработанных в рамках стажировки.
 
-## Getting Started
+## Структура проекта
 
-This project is a starting point for a Flutter application.
+Проект содержит 6 независимых Flutter-приложений в директории `apps/`:
 
-A few resources to get you started if this is your first Flutter project:
+### 1. SmartCalc
+**Путь:** `apps/smart_calc/`
+**Описание:** Многофункциональный калькулятор
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Основные возможности:**
+- Математические вычисления с использованием библиотеки `math_expressions`
+- Сохранение настроек через `shared_preferences`
+- Форматирование чисел с `intl`
+- Кастомная иконка приложения
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-apps
+**Ключевые зависимости:**
+- `math_expressions: ^2.4.0` - парсинг и вычисление математических выражений
+- `shared_preferences: ^2.2.2` - локальное хранилище настроек
+- `intl: ^0.19.0` - интернационализация и форматирование
+
+### 2. Animal Pedia
+**Путь:** `apps/animal_pedia/`
+**Описание:** Интерактивная энциклопедия животных
+
+**Основные возможности:**
+- База данных животных в формате JSON
+- Просмотр информации о различных видах животных
+- Локальное хранение пользовательских настроек
+
+**Ключевые зависимости:**
+- `shared_preferences: ^2.2.2` - сохранение предпочтений пользователя
+
+**Ресурсы:**
+- `lib/data/animals.json` - база данных животных
+
+### 3. Bounce Physics
+**Путь:** `apps/bounce_physics/`
+**Описание:** Физическая игра с прыгающим мячом и препятствиями
+
+**Основные возможности:**
+- Физический движок на базе Flame
+- Игровая механика с препятствиями
+- Система сохранения прогресса
+
+**Ключевые зависимости:**
+- `flame: ^1.18.0` - игровой движок для Flutter
+- `shared_preferences: ^2.2.2` - сохранение игрового прогресса
+
+**Ресурсы:**
+- `assets/` - графические ресурсы игры
+
+### 4. Formula Calc
+**Путь:** `apps/formula_calc/`
+**Описание:** Справочник формул с калькулятором
+
+**Основные возможности:**
+- База данных математических и физических формул
+- Встроенный калькулятор для вычислений
+- Категоризация формул по разделам
+
+**Ключевые зависимости:**
+- `shared_preferences: ^2.2.2` - сохранение избранных формул
+
+**Ресурсы:**
+- `lib/data/formulas.json` - база данных формул
+
+### 5. Sky Pilot
+**Путь:** `apps/sky_pilot/`
+**Описание:** Аркадная игра - пилотирование самолёта
+
+**Основные возможности:**
+- Управление самолётом
+- Система очков и рекордов
+- Аркадный геймплей
+
+**Ключевые зависимости:**
+- `shared_preferences: ^2.2.2` - сохранение лучших результатов
+
+### 6. TaskMaster
+**Путь:** `apps/task_master/`
+**Описание:** Мощное TODO-приложение с приоритетами и статистикой
+
+**Основные возможности:**
+- Создание, редактирование и удаление задач
+- Система приоритетов
+- Статистика выполнения задач с графиками
+- Локальная база данных SQLite
+
+**Ключевые зависимости:**
+- `sqflite: ^2.3.0` - SQLite база данных
+- `provider: ^6.1.1` - управление состоянием
+- `fl_chart: ^0.68.0` - построение графиков
+- `intl: ^0.19.0` - форматирование дат
+
+**Архитектура:**
+- Models: `lib/models/task.dart`
+- Services: `lib/services/database_service.dart`
+- Screens: `lib/screens/`
+- Widgets: `lib/widgets/`
+
+## Технологии
+
+- **Framework:** Flutter SDK ^3.10.4
+- **Язык:** Dart
+- **Поддерживаемые платформы:** Android, iOS, Linux, MacOS
+
+## Требования
+
+- Flutter SDK 3.10.4 или выше
+- Dart SDK ^3.10.4
+- Android Studio / VS Code с Flutter плагином
+- Xcode (для iOS разработки на macOS)
+
+## Запуск приложений
+
+Каждое приложение запускается независимо:
+
+```bash
+# Перейти в директорию приложения
+cd apps/smart_calc
+
+# Установить зависимости
+flutter pub get
+
+# Запустить приложение
+flutter run
+```
+
+## Сборка
+
+```bash
+# Android APK
+flutter build apk
+
+# iOS (требуется macOS)
+flutter build ios
+
+# Linux
+flutter build linux
+
+# MacOS
+flutter build macos
+```
+
+## Общие зависимости
+
+Все приложения используют:
+- `cupertino_icons: ^1.0.8` - iOS стиль иконок
+- `flutter_lints: ^6.0.0` - линтинг и best practices
+- Material Design компоненты
+
+## Структура каждого приложения
+
+```
+app_name/
+├── lib/
+│   ├── main.dart           # Точка входа
+│   ├── models/             # Модели данных
+│   ├── screens/            # Экраны приложения
+│   ├── widgets/            # Переиспользуемые виджеты
+│   ├── services/           # Бизнес-логика и сервисы
+│   └── data/               # JSON файлы с данными
+├── assets/                 # Изображения, иконки
+├── android/                # Android конфигурация
+├── ios/                    # iOS конфигурация
+├── linux/                  # Linux конфигурация
+├── macos/                  # MacOS конфигурация
+└── pubspec.yaml            # Зависимости и метаданные
+```
+
+## Git
+
+- **Основная ветка:** `dev`
+- **Последние коммиты:**
+  - `866d9d0` - Удалена поддержка Flutter Linux desktop
+  - `6c33c50` - Инициализация dev ветки
+  - `e9f05b7` - Первый коммит
+
+## Документация Flutter
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
